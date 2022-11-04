@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+
+
+
+var x = 'Tipus de dades';
+var y = 'de'
+var posicio = (frase,paraula) => {
+  return frase.length - frase.indexOf(paraula)
+}
+console.log(posicio(x,y))
+
+
+var dividir = (frase,paraula)=> {
+  return frase.slice(frase.length-posicio(x,y)+paraula.length);
+}
+console.log(dividir(x,y))
+
+
+
+
+</script>
+</body>
+</html>

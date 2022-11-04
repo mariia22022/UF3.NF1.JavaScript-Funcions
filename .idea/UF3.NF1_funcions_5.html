@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+
+  function numeroVocals(paraula){
+    var paraula1 = paraula.replaceAll('e','').replaceAll('i','').replaceAll('o','').replaceAll('a','').replaceAll('u','')
+    return paraula.length-paraula1.length
+  }
+
+
+console.log(numeroVocals('electrificacion'));
+
+
+
+</script>
+</body>
+</html>
